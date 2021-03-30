@@ -8,20 +8,10 @@ I wrote this project because I had a hard time finding any alternative to handli
 
 ## Installation
 
-Use [composer] with the git repository `https://github.com/Aldarien/events` (don't have [Packagist] setup correctly).
+Use [composer].
 
 ```
-{
-  "require": {
-    "aldarien/events": "~1"
-  },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/Aldarien/events"
-    }
-  ]
-}
+composer require aldarien/events
 ```
 
 ## Use
@@ -108,4 +98,3 @@ Take note of the last lines where the message received by the **app** needs an a
 [Slim]: https://slimframework.com
 [PHP-DI]: https://php-di.org/
 [composer]: https://getcomposer.org
-[Packagist]: https://packagist.org
