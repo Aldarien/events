@@ -103,7 +103,7 @@ Set the event listeners for `open`, `message`, `error` and `close` and start sen
 Take note of the last lines where the message received by the **app** needs an action equivalent to the event names added before and the data associated if any (can be missing).
 
 [PHP]: http://php.net
-[WebSocket]: https://en.wikipedia.org/wiki/WebSocket
+[WebSockets]: https://en.wikipedia.org/wiki/WebSocket
 [Ratchet]: http://socketo.me/
 [Slim]: https://slimframework.com
 [PHP-DI]: https://php-di.org/
