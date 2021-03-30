@@ -1,0 +1,25 @@
+{
+    "name": "provm/events",
+    "description": "Event handler for WebSocket",
+    "type": "project",
+    "require": {
+        "cboden/ratchet": "^0.4.3",
+        "psr/event-dispatcher": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "kint-php/kint": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aldarien",
+            "email": "aldarien85@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "ProVM\\Common\\": "./common"
+      }
+    }
+}
